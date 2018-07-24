@@ -32,6 +32,10 @@ Open ConnectMe project in browser-sync using following command:
 $cd ConnectMe
 $browser-sync start --server --files "stylesheets/*.css, *.html"
 
+User Documentation: 
+
+Website opens with the welcome page. The welcome page shows preview and sample business card. The welcome page also gives user, option to login or signup. First time user will signup by entering all details information like email address, username, gender and creating password. Once signup is completed, user will be navigated to create user business card. Some base information will be asked to build business card. After all the user informations is entered, business card will be created. User can navigate back using "Home" tab.
+
 Please view screenshots for reference. 
 
 Technology used:
