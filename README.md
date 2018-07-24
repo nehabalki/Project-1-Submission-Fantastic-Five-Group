@@ -21,7 +21,7 @@ Use the following commands into command prompt or the console to run a Deployd a
 $cd ConnectMe-backend
 $dpd -d
 
-Note: check the port on which dashboard opens. The port should be same in the following javascript files under script folder in ConnectMe. The defualt port is 2403.
+Note: check the port on which dashboard opens. The port should be same in the following javascript files under script folder in ConnectMe. The default port is 2403.
 
 connectmelink.js       var SERVER_URL = "http://localhost:2403/connectme";                       
 login.js               var SERVER_URL = "http://localhost:2403/usersverification";         
