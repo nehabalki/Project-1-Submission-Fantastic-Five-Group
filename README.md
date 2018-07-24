@@ -18,7 +18,7 @@ Download all the files from https://github.com/BalkiNeha/Project-1-Submission-Fa
 
 Use the following commands into command prompt or the console to run a Deployd application and open the dashboard (database interface):
 
-$cd ConnectMe-backend
+$cd ConnectMe-backend                              
 $dpd -d
 
 Note: check the port on which dashboard opens. The port should be same in the following javascript files under script folder in ConnectMe. The default port is 2403.
@@ -28,8 +28,8 @@ login.js               var SERVER_URL = "http://localhost:2403/usersverification
 signup.js              var SERVER_URL = "http://localhost:2403/usersverification";              
 userpage.js            var SERVER_URL = "http://localhost:2403/connectme";                 
 
-Open ConnectMe project in browser-sync using following command: 
-$cd ConnectMe
+Open ConnectMe project in browser-sync using following command:                              
+$cd ConnectMe                          
 $browser-sync start --server --files "stylesheets/*.css, *.html"
 
 User Documentation: 
