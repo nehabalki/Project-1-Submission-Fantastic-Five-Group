@@ -1,0 +1,200 @@
+@font-face {
+  font-family: 'airstreamregular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/Airstream-webfont.eot');
+  src: url('fonts/Airstream-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Airstream-webfont.woff') format('woff'), url('fonts/Airstream-webfont.ttf') format('truetype'), url('fonts/Airstream-webfont.svg#airstreamregular') format('svg');
+}
+
+@font-face {
+  font-family: 'lakeshore';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/LAKESHOR-webfont.eot');
+  src: url('fonts/LAKESHOR-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/LAKESHOR-webfont.woff') format('woff'), url('fonts/LAKESHOR-webfont.ttf') format('truetype'), url('fonts/LAKESHOR-webfont.svg#lakeshore') format('svg');
+}
+
+@font-face {
+  font-family: "Archivo Narrow";
+  font-style: normal;
+  font-weight: normal;
+  src: url("Archivo-Narrow/ArchivoNarrow-Medium.ttf");
+}
+.header {
+  color: white;
+}
+
+.progress {
+  margin-left: auto;
+  margin-right:auto;
+  width:60%;
+}
+
+.container {
+  /*background-color: rgb(108, 145, 156);
+  width:100%;*/
+}
+
+.buttonHolder{
+  text-align: center;
+}
+
+form {
+  background-color: white;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+div.header {
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+
+.panel-default {
+  background-color: white;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  flex-wrap: wrap;
+  overflow: auto;
+  text-align: center;
+  width: auto;
+}
+
+.panel-body ul {
+  border-bottom: 3px solid transparent;
+  color: #337ab7;
+  display: inline-flex;
+  font-size: 20px;
+  padding: 50px 0 50px 0;
+}
+
+.panel-body ul li {
+  border: 0.5px solid lightgray;
+  margin: 10px 15px 10px 15px;
+  width: auto;
+}
+
+footer {
+  bottom: 10px;
+  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, .5);
+  left: 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+footer a {
+  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, .5);
+}
+
+#Header {
+  color: rgb(112, 116, 116);
+  font-family: "Archivo Narrow";
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.one-liner {
+  color: rgb(204, 209, 209);
+  font-family: "Archivo Narrow";
+  font-size: 25px;
+}
+
+.bg {
+  height: 50%;
+}
+
+.copyright {
+  color: white;
+}
+
+body {
+  background: url(background/background-img.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  padding: 2em;
+  -webkit-background-size: cover;
+}
+
+.username {
+  font-size: 30px;
+}
+
+.user-profession {
+  font-size: 20px;
+}
+
+.user-info {
+}
+
+/* Shared */
+.loginBtn {
+  box-sizing: border-box;
+  position: relative;
+  /* width: 13em;  - apply for fixed size */
+  margin: 0.2em;
+  padding: 0 15px 0 46px;
+  border: none;
+  text-align: left;
+  line-height: 34px;
+  white-space: nowrap;
+  border-radius: 0.2em;
+  font-size: 16px;
+  color: #FFF;
+}
+
+.loginBtn:before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 34px;
+  height: 100%;
+}
+
+.loginBtn:focus {
+  outline: none;
+}
+
+.loginBtn:active {
+  box-shadow: inset 0 0 0 32px rgba(0,0,0,0.1);
+}
+
+.loginBtn--facebook {
+  background-color: #4C69BA;
+  background-image: linear-gradient(#4C69BA, #3B55A0);
+  /*font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;*/
+  text-shadow: 0 -1px 0 #354C8C;
+}
+
+.loginBtn--facebook:before {
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/icon_facebook.png') 6px 6px no-repeat;
+  border-right: #364e92 1px solid;
+}
+
+.loginBtn--facebook:hover,
+.loginBtn--facebook:focus {
+  background-color: #5B7BD5;
+  background-image: linear-gradient(#5B7BD5, #4864B1);
+}
+
+.loginBtn--google {
+  /*font-family: "Roboto", Roboto, arial, sans-serif;*/
+  background: #DD4B39;
+}
+
+.loginBtn--google:before {
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/icon_google.png') 6px 6px no-repeat;
+  border-right: #BB3F30 1px solid;
+}
+
+.loginBtn--google:hover,
+.loginBtn--google:focus {
+  background: #E74B37;
+}

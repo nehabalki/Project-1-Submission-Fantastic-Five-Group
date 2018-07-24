@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--LOGIN-->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>ConnectMe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="stylesheets/styles.css">
+</head>
+
+<body class="container">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">ConnectMe</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="navbarNav" style="position:absolute;top:center;right:1%;">
+      <ul id="selection" class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#" title="Signup">Start for Free</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" title="Features">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" title="Premium">Premium</a>
+        </li>
+      </ul>
+    </div>
+  </nav><br><br><br><br><br>
+  <section class="backgroundColor">
+    <form login="form">
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" name="password" id="password" required>
+        <small id="passwordHelpInline" class="text-muted"></small>
+      </div>
+      <div class="form-group" style="display:none">
+        <label id="errormessage" for="invalidemailorpassword">Your email or user name doesn’t match your password. Please try again.</label>
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="remember-me">
+        <label class="form-check-label" for="remember-me">Remember Me</label>
+      </div>
+      <div class="form-group">
+        <a href="#">Forgot Password</a>
+      </div>
+      <div class="buttonHolder">
+        <button id="login" type="submit" class="btn btn-primary" style="width:20%;align:center;">Log In</button>
+      </div><br>
+      <div class="text-center">
+        <img src="img/neha_connectme.jpg" class="img-fluid" style="width:50%" alt="Responsive image">
+      </div>
+    </form>
+    <nav class="page-footer font-small">
+      <div class="container">
+        <div class="row text-center d-flex flex-nowrap justify-content-center pt-5 mb-3">
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+            <a href="#!">Help</a>
+          </h6>
+          </div>
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+            <a href="#!">Terms</a>
+          </h6>
+          </div>
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+            <a href="#!">Privacy</a>
+          </h6>
+          </div>
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+            <a href="#!">Contact Us</a>
+          </h6>
+          </div>
+        </div>
+        <div class="copyright">
+					<div class="footer-copyright text-center py-3">© 2018 Copyright:
+						<label style="font-weight:normal;" for="footer">ConnectMe. All rights reserved.</label>
+					</div>
+				</div>
+      </div>
+    </nav>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="scripts/remotedatastore.js" charset="utf-8"></script>
+  <script src="scripts/userdata.js" charset="utf-8"></script>
+  <script src="scripts/loginformhandler.js" charset="utf-8"></script>
+  <script src="scripts/login.js" charset="utf-8"></script>
+</body>
+
+</html>

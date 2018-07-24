@@ -1,0 +1,133 @@
+{
+	"type": "Collection",
+	"properties": {
+		"firstname": {
+			"name": "firstname",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "firstname",
+			"order": 0
+		},
+		"lastname": {
+			"name": "lastname",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "lastname",
+			"order": 1
+		},
+		"profilepicturefile": {
+			"name": "profilepicturefile",
+			"type": "object",
+			"typeLabel": "object",
+			"required": false,
+			"id": "profilepicturefile",
+			"order": 2
+		},
+		"location": {
+			"name": "location",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "location",
+			"order": 3
+		},
+		"interest1": {
+			"name": "interest1",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "interest1",
+			"order": 4
+		},
+		"interest2": {
+			"name": "interest2",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "interest2",
+			"order": 5
+		},
+		"interest3": {
+			"name": "interest3",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "interest3",
+			"order": 6
+		},
+		"interest4": {
+			"name": "interest4",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "interest4",
+			"order": 7
+		},
+		"interest5": {
+			"name": "interest5",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "interest5",
+			"order": 8
+		},
+		"profession1": {
+			"name": "profession1",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "profession1",
+			"order": 9
+		},
+		"profession2": {
+			"name": "profession2",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "profession2",
+			"order": 10
+		},
+		"profession3": {
+			"name": "profession3",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "profession3",
+			"order": 11
+		},
+		"pagetitle": {
+			"name": "pagetitle",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "pagetitle",
+			"order": 12
+		},
+		"websitelink": {
+			"name": "websitelink",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "websitelink",
+			"order": 13
+		},
+		"connectmelink": {
+			"name": "connectmelink",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "connectmelink",
+			"order": 14
+		},
+		"username": {
+			"name": "username",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "username",
+			"order": 15
+		}
+	}
+}

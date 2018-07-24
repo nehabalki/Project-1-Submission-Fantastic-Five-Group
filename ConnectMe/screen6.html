@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--SCREEN6-->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ConnectMe</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="stylesheets/styles.css">
+</head>
+
+<body class="container">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">ConnectMe</a>
+  </nav><br><br><br><br><br>
+  <em><p class="text-center"></p></em>
+  <div class="progress">
+    <div class="progress-bar" style="width:100%"></div>
+  </div><br>
+  <section class="backgroundColor">
+    <form data-enter-website="form">
+      <div class="form-group">
+        <p>What do you want your link to be?</p>
+        <input id="connectmelink" class="form-control" type="connectmelink" name="connectmelink" placeholder="http://connect.me/username" required>
+        <small id="warningmessage" class="text-muted"></small>
+      </div>
+      <div class="form-group">
+        <div class="g-recaptcha" data-sitekey="6LfKURIUAAAAAO50vlwWZkyK_G2ywqE52NU7YO0S" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+        <input class="form-control d-none" data-recaptcha="true" data-error="Please complete the Captcha">
+        <div class="help-block with-errors"></div>
+      </div>
+      <div class="buttonHolder">
+        <input id="nextbutton" type="submit" class="btn btn-primary btn-send" value="Next" style="width:20%;">
+      </div>
+    </form>
+    <nav class="page-footer font-small">
+      <div class="container">
+        <div class="row text-center d-flex flex-nowrap justify-content-center pt-5 mb-3">
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+                <a href="#!">Help</a>
+              </h6>
+          </div>
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+                <a href="#!">Terms</a>
+              </h6>
+          </div>
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+                <a href="#!">Privacy</a>
+              </h6>
+          </div>
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+                <a href="#!">Contact Us</a>
+              </h6>
+          </div>
+        </div>
+        <div class="copyright">
+					<div class="footer-copyright text-center py-3">© 2018 Copyright:
+						<label style="font-weight:normal;" for="footer">ConnectMe. All rights reserved.</label>
+					</div>
+				</div>
+      </div>
+    </nav>
+  </section>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <script src="scripts/remotedatastore.js" charset="utf-8"></script>
+  <script src="scripts/userdata.js" charset="utf-8"></script>
+  <script src="scripts/connectmelinkformhandler.js"></script>
+  <script src="scripts/connectmelink.js"></script>
+  <script src="scripts/validator.js"></script>
+</body>
+
+</html>

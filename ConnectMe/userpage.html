@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--USER-SCREEN-->
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<title>ConnectMe</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="stylesheets/styles.css">
+</head>
+
+<body class="container">
+	<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+		<a class="navbar-brand" href="#">ConnectMe</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+		<div class="collapse navbar-collapse" id="navbarNav" style="position:absolute;top:center;right:1%;">
+			<ul id="selection" class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#" title="Home">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#" title="Features">Features</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#" title="Premium">Premium</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#" title="Edit your profile">Edit your profile</a>
+				</li>
+			</ul>
+		</div>
+	</nav><br><br><br><br><br>
+	<div class="text-center">
+		<img id="uploadPicture" src="img/profile_pic.png" class="img-thumbnail" alt="" style="width:15%;height:15%">
+	</div>
+	<br>
+	<div class="panel panel-default">
+		<br>
+		<!--Contains the First and Last name of the user-->
+		<div class="username">
+			<label id="username" for="username" style="font-weight:bold;"></label>
+		</div>
+		<!--Contains the user's job and location-->
+		<div class="userprofessionandlocation">
+			<label id="userprofessionandlocation" for="userprofessionandlocation" style="font-weight:bold;"></label>
+		</div>
+		<div>
+			<button id="userpagetitle" class="btn btn-primary" style="width:50%">ConnectMe</button>
+		</div><br><br>
+		<!--Contains the user information-->
+		<div class="user-info">
+		<label id="userdetails" for="userdetails" style="font-weight:normal;width:50%" ></label>
+		</div>
+	</div>
+	<section class="backgroundColor">
+		<nav class="page-footer font-small">
+			<div class="container">
+				<div class="row text-center d-flex flex-nowrap justify-content-center pt-5 mb-3">
+					<div class="col-md-2 mb-3">
+						<h6 class="text-uppercase font-weight-bold">
+						<a href="#!">Help</a>
+					</h6>
+					</div>
+					<div class="col-md-2 mb-3">
+						<h6 class="text-uppercase font-weight-bold">
+						<a href="#!">Terms</a>
+					</h6>
+					</div>
+					<div class="col-md-2 mb-3">
+						<h6 class="text-uppercase font-weight-bold">
+						<a href="#!">Privacy</a>
+					</h6>
+					</div>
+					<div class="col-md-2 mb-3">
+						<h6 class="text-uppercase font-weight-bold">
+						<a href="#!">Contact Us</a>
+					</h6>
+					</div>
+				</div>
+				<div class="copyright">
+					<div class="footer-copyright text-center py-3">© 2018 Copyright:
+						<label style="font-weight:normal;" for="footer">ConnectMe. All rights reserved.</label>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	<script src="scripts/remotedatastore.js" charset="utf-8"></script>
+  <script src="scripts/userdata.js" charset="utf-8"></script>
+  <script src="scripts/userpageformhandler.js" charset="utf-8"></script>
+  <script src="scripts/userpage.js" charset="utf-8"></script>
+</body>
+
+</html>
