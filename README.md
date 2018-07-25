@@ -5,8 +5,10 @@ CPSC-473-Project-1
 Team members:
 
 Neha Balki   balkineha_24@csu.fullerton.edu,                         
-Keerthi SV   keerthisv@csu.fullerton.edu
-
+Keerthi SV   keerthisv@csu.fullerton.edu,              
+Angelo Salac gsalac7@csu.fullerton.edu,    
+Chary Vielma chary.vielma@csu.fullerton.edu,                    
+Vama Trivedi vama.trivedi1994@csu.fullerton.edu                                  
 
 Project Title: ConnectMe                                  
 (Users can create their own "business card" or "landing" pages).
