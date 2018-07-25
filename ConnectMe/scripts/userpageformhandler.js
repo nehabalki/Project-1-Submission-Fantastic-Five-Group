@@ -64,7 +64,7 @@
     $("#username").text(username);
     $("#userprofessionandlocation").text(professionAndLocation);
     $("#userpagetitle").text(userdata.pagetitle);
-    var description = "Hello, I'm " + userdata.firstname + "." + " I'm a " + professionAndLocation + "." + " I am fan of " + userinterests + "." + " You can " + userdata.pagetitle + " with a click on the button above.";
+    var description = "Hello, I'm " + userdata.firstname + "." + " I'm a " + professionAndLocation + "." + " I'm a fan of " + userinterests + "." + " You can " + userdata.pagetitle + " with a click on the button above.";
     $("#userdetails").text(description);
   };
 

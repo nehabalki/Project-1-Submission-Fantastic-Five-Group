@@ -52,7 +52,7 @@
         password: val.password
       },
       success: function() {
-        window.location.href = "screen1.html";
+        window.location.href = "userpage.html";
       },
       error: function(xhr) {
         var responseText = $.parseJSON(xhr.responseText);
